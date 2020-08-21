@@ -133,7 +133,36 @@ body {
     text-decoration: underline;
 }
 
-
+/* *** MEDIA QUERIES START*** */
+@media only screen and (max-width: 600px) {
+  .header{
+    justify-content: center;
+  }
+  .login{
+  margin-top: -2px;
+  }
+  .login__container{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  .login__container--remember-me{
+    align-items: center;
+  }
+  .login__container--remember-melabel{
+    display: flex;
+    align-items: center
+  }
+  .footer{
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px21px;
+    margin-top: -2px;
+    justify-content: space-evenly;
+  }
+}
+/* *** MEDIA QUERIES END*** */
 
 
 
